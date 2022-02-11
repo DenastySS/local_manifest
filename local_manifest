@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+	<remote name="DenastySS" fetch="https://github.com/DenastySS" /> 
+
+ <!-- Trees -->
+ <project path="device/google/taimen" name="android_device_google_taimen" revision="twelve-wip" remote="DenastySS" clone-depth="1"/>
+ <project path="vendor/google/taimen" name="android_vendor_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1"/>
+ <project path="kernel/google/taimen" name="android_kernel_google_wahoo" revision="twelve" remote="DenastySS" clone-depth="1"/>
+  
+</manifest>
