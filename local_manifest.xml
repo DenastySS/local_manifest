@@ -6,7 +6,8 @@
 
  <!-- Trees -->
  <project path="device/google/taimen" name="android_device_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
+ <project path="device/google/wahoo" name="android_device_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
  <project path="vendor/google/taimen" name="android_vendor_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
- <project path="kernel/google/taimen" name="android_kernel_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
+ <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
   
 </manifest>
