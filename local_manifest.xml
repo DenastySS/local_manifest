@@ -19,8 +19,8 @@
 	
 <!-- HALs Replacement -->	
         <remove-project name="platform_hardware_qcom_audio" />  	
-        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="extras" revision="arrow-12.0-caf-sm8998" />
+        <project path="hardware/qcom-caf/sm8998/audio" name="android_hardware_qcom_audio" remote="extras" revision="arrow-12.0-caf-sm8998" />
         <remove-project name="platform_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="extras" revision="arrow-12.0-caf-sm8998" />
+        <project path="hardware/qcom-caf/sm8998/display" name="android_hardware_qcom_display" remote="extras" revision="arrow-12.0-caf-sm8998" />
   
 </manifest>
