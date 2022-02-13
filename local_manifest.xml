@@ -3,6 +3,9 @@
 
  <!-- Remotes -->
 	<remote name="DenastySS" fetch="https://github.com/DenastySS" /> 
+	
+ <!--remove-ipacfg-mgr-->
+ <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 
  <!-- DeviceTrees -->
  <project path="device/google/taimen" name="android_device_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
