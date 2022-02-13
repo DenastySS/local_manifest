@@ -2,19 +2,25 @@
 <manifest>
 
  <!-- Remotes -->
-	<remote name="DenastySS" fetch="https://github.com/DenastySS" /> 
+	<remote name="DenastySS"
+	  fetch="https://github.com/DenastySS" />
+	
+	<remote name="extras"
+          fetch="https://github.com/ArrowOS" />
 	
  <!--remove-ipacfg-mgr-->
  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 
  <!-- DeviceTrees -->
- <project path="device/google/taimen" name="android_device_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
- <project path="device/google/wahoo" name="android_device_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
+	<project path="device/google/taimen" name="android_device_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
+ 	<project path="device/google/wahoo" name="android_device_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
+ 	<project path="vendor/google/taimen" name="android_vendor_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
+ 	<project path="kernel/google/wahoo" name="android_kernel_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
 	
- <!-- Vendor -->
- <project path="vendor/google/taimen" name="android_vendor_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
-	
- <!-- Kernel -->
- <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" revision="arrow-12.0" remote="DenastySS" clone-depth="1" />
+<!-- HALs Replacement -->	
+        <remove-project name="platform_hardware_qcom_audio" />  	
+        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="extras" revision="arrow-12.0-caf-sm8998" />
+        <remove-project name="platform_hardware_qcom_display" />
+        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="extras" revision="arrow-12.0-caf-sm8998" />
   
 </manifest>
