@@ -5,8 +5,14 @@
 	<remote name="DenastySS"
 	  fetch="https://github.com/DenastySS" />
 	
+	<remote name="hsx"
+	  fetch="https://github.com/hsx02" />
+	
  <!--remove-ipacfg-mgr-->
  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+	
+ <remove-project name="android_hardware_qcom_wlan"/>
+ <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx" revision="S"/>
 
  <!-- DeviceTrees -->
 	<project path="device/google/taimen" name="android_device_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
