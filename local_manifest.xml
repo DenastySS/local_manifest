@@ -14,9 +14,9 @@
  <!--Remove-->
  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 
- <remove-project name="android_hardware_qcom_wlan"/>
+ <!-- <remove-project name="android_hardware_qcom_wlan"/>
  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="DenastySS" revision="xd-12" />
- <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve" />
+ <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve" /> -->
 
  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1" />
 
