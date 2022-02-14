@@ -5,14 +5,21 @@
 	<remote name="DenastySS"
 	  fetch="https://github.com/DenastySS" />
 	
-	<remote name="hsx"
-	  fetch="https://github.com/hsx02" />
+	<remote name="aosp"
+	 fetch="https://android.googlesource.com"/>
 	
- <!--remove-ipacfg-mgr-->
+	<remote  name="pxl"
+         fetch="https://github.com/PixelExperience" />
+	
+ <!--Remove-->
  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 	
  <remove-project name="android_hardware_qcom_wlan"/>
- <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx" revision="S"/>
+ <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="aosp"/>
+ <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve"/>
+	
+ <remove-project name="xd_device_qcom_sepolicy-legacy-um"/>
+ <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
 
  <!-- DeviceTrees -->
 	<project path="device/google/taimen" name="android_device_google_taimen" revision="twelve" remote="DenastySS" clone-depth="1" />
