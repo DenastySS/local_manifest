@@ -15,8 +15,8 @@
  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 	
  <remove-project name="android_hardware_qcom_wlan"/>
- <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="aosp"/>
- <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve"/>
+ <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="aosp"/>
+ <!--<project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve"/> -->
 	
  <remove-project name="xd_device_qcom_sepolicy-legacy-um"/>
  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
