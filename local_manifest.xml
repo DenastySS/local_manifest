@@ -16,9 +16,9 @@
 
  <!-- <remove-project name="android_hardware_qcom_wlan"/>
  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="DenastySS" revision="xd-12" />
- <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve" /> -->
+ <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve" />
 
- <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1" />
+ <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1" /> -->
 
  <remove-project name="xd_device_qcom_sepolicy-legacy-um"/>
  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="DenastySS" revision="arrow-12.0" />
