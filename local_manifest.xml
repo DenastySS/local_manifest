@@ -4,6 +4,9 @@
  <!-- remotes -->
 	<remote name="DenastySS"
 	  fetch="https://github.com/DenastySS" />
+	
+ <!--Remove-->
+ 	<remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 
  <!-- sync trees -->
 	<project path="device/google/taimen" name="xd_device_google_taimen" remote="DenastySS" revision="xd-12" clone-depth="1" />
